@@ -2,9 +2,7 @@
 title: 'Class 6: R Functions'
 author: "Hyeonseok Jang (PID# A59011126)"
 date: "10/15/2021"
-output:
-  html_document:
-    df_print: paged
+output: github_document
 ---
 
 ##Quink Rmarkdown intro

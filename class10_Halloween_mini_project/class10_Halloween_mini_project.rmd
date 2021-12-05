@@ -2,11 +2,7 @@
 title: "class10_Halloween_mini_project"
 author: "Hyeonseok Jang (PID# A59011126)"
 date: "10/29/2021"
-output:
-  html_document:
-    df_print: paged
-  pdf_document:
-    latex_engine: xelatex
+output: github_document
 ---
 
 ## 1. Importing candy data

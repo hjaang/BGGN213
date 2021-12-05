@@ -2,9 +2,7 @@
 title: "class15"
 author: "Hyeonseok Jang (PID# A59011126)"
 date: "11/17/2021"
-output:
-  html_document: default
-  pdf_document: default
+output: github_document
 ---
 
 ```{r}

@@ -2,9 +2,7 @@
 title: "class09_mini_project"
 author: "Hyeonseok Jang (PID# A59011126)"
 date: "10/27/2021"
-output:
-  pdf_document: default
-  html_document: default
+output: github_document
 ---
 ## 1. Exploratory data analysis
 

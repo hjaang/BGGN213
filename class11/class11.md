@@ -40,8 +40,6 @@ round(db$Total[1]/sum(db$Total)*100, 2)
 
 22824 structures
 
-![](1hsg.png)
-
 ``` r
 library(bio3d)
 pdb <- read.pdb("1hsg")
@@ -81,8 +79,8 @@ m <- nma(pdb)
     ## Warning in nma.pdb(pdb): Possible multi-chain structure or missing in-structure residue(s) present
     ##   Fluctuations at neighboring positions may be affected.
 
-    ##  Building Hessian...     Done in 0.03 seconds.
-    ##  Diagonalizing Hessian...    Done in 0.19 seconds.
+    ##  Building Hessian...     Done in 0.04 seconds.
+    ##  Diagonalizing Hessian...    Done in 0.2 seconds.
 
 ``` r
 plot(m)

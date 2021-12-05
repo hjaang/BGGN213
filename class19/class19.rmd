@@ -2,9 +2,7 @@
 title: "class19"
 author: "Hyeonseok Jang (PID# A59011126)"
 date: "12/3/2021"
-output:
-  html_document: default
-  pdf_document: default
+output: github_document
 ---
 
 ## Section 4: Population Scale Analysis
