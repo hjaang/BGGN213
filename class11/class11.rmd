@@ -1,0 +1,57 @@
+---
+title: "class11"
+author: "Hyeonseok Jang (PID# A59011126)"
+date: "11/3/2021"
+output: 
+  github_document: default
+
+---
+
+```{r}
+db <- read.csv("Data Export Summary.csv", row.names=1)
+```
+
+> Q1: What percentage of structures in the PDB are solved by X-Ray and Electron Microscopy.
+
+```{r}
+round(sum(db$X.ray)/sum(db$Total)*100, 2)
+```
+
+How about doing this over every method (i.e. coln in the little table)
+
+```{r}
+round(colSums(db)/sum(db$Total)*100, 2)
+```
+
+> Q2: What proportion of structures in the PDB are protein?
+
+```{r}
+round(db$Total[1]/sum(db$Total)*100, 2)
+```
+
+> Q3: Type HIV in the PDB website search box on the home page and determine how many HIV-1 protease structures are in the current PDB?
+
+22824 structures
+
+
+![](1hsg.png)
+
+```{r}
+library(bio3d)
+pdb <- read.pdb("1hsg")
+pdb
+```
+
+```{r}
+m <- nma(pdb)
+plot(m)
+```
+
+Make a little movie (trajectory) for viewing in VMD.
+```{r}
+mktrj(m, file="nma.pdb")
+```
+
+
+
+

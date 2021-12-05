@@ -1,0 +1,3 @@
+cd ~/downloads
+chmod 400 hyeonseok_bioinf.pem
+ssh -i "hyeonseok_bioinf.pem" ubuntu@ec2-54-185-113-134.us-west-2.compute.amazonaws.com

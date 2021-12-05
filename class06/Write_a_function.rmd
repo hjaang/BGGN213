@@ -1,0 +1,35 @@
+---
+title: "Write_a_function"
+author: "Hyeonseok Jang (PID# A59011126)"
+date: "10/15/2021"
+output: pdf_document
+---
+>**Q6**. How would you generalize the original code above to work with any set of input
+protein structures?
+
+My function--named **Bfactor**--receives any protein PDB data, and returns a plot for the specified protein. It receives the four-letter PDB identifier(PDBID) and a chain identifier(chainID) as its inputs, and creates the plot showing the temperature factors(B factors) of the backbone C-alpha atoms in a specified chain of the protein.
+```{r}
+library(bio3d)
+Bfactor <-  function(PDBID, chainID){
+  x <- read.pdb(PDBID)
+  x.chain <- trim.pdb(x, chain=chainID, elety="CA")
+  x.b <- x.chain$atom$b
+  plotb3(x.b, sse=x.chain, typ="l", ylab="Bfactor")
+  }
+```
+
+To use the function, you first have to install and load the bio3d package. 
+```{r}
+##install.packages("bio3d")
+library(bio3d)
+```
+
+After then, you can enter the inputs following the order--PDBID, chainID.
+```{r}
+Bfactor("4AKE", "A")
+Bfactor("4AKE", "B")
+Bfactor("1AKE", "A")
+Bfactor("1E4Y", "A")
+```
+
+The result is the line-type plot that has "Residue" and "Bfactor" as labels for its x-axis and y-axis, respectively. (The marginal black and grey rectangles in the plot represent alpha helices and beta strands, respectively.)
