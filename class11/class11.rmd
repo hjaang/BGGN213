@@ -2,9 +2,9 @@
 title: "class11"
 author: "Hyeonseok Jang (PID# A59011126)"
 date: "11/3/2021"
-output: 
-  github_document: default
-
+output:
+  html_document: default
+  pdf_document: default
 ---
 
 ```{r}
@@ -32,9 +32,6 @@ round(db$Total[1]/sum(db$Total)*100, 2)
 > Q3: Type HIV in the PDB website search box on the home page and determine how many HIV-1 protease structures are in the current PDB?
 
 22824 structures
-
-
-![](1hsg.png)
 
 ```{r}
 library(bio3d)

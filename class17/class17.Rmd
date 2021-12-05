@@ -3,6 +3,8 @@ title: "class17"
 author: "Hyeonseok Jang (PID# A59011126)"
 date: "11/24/2021"
 output:
+  html_document:
+    df_print: paged
   pdf_document:
     latex_engine: xelatex
 ---

@@ -3,8 +3,8 @@ title: "class16"
 author: "Hyeonseok Jang (PID# A59011126)"
 date: "11/19/2021"
 output:
-  pdf_document: default
   html_document: default
+  pdf_document: default
 ---
 
 # Background
