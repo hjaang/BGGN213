@@ -8,7 +8,7 @@ Class 5 - [Data exploration and visualization in R](https://github.com/hjaang/BG
 
 class 6 - [Why, when and how of writing your own R functions](https://github.com/hjaang/BGGN213/blob/main/class06/class06.rmd)
 
-class 8 - [Introduction to machine learning for Bioinformatics 1](https://github.com/hjaang/BGGN213/blob/main/class08/class08.rmd)
+class 8 - [Introduction to machine learning for Bioinformatics 1](https://github.com/hjaang/BGGN213/blob/main/class08/class08.Rmd)
 
 class 9 - [Unsupervised learning mini-project](https://github.com/hjaang/BGGN213/blob/main/class09_mini_project/class09_mini_project.rmd)
 
@@ -20,6 +20,6 @@ class 15 - [Transcriptomics, RNA-Seq analysis, and the interpretation of gene li
 
 class 16 - [RNA-Seq mini project](https://github.com/hjaang/BGGN213/blob/main/class16/class16.rmd)
 
-class 17 - [Vaccination rate mini project](https://github.com/hjaang/BGGN213/blob/main/class17/class17.rmd)
+class 17 - [Vaccination rate mini project](https://github.com/hjaang/BGGN213/blob/main/class17/class17.Rmd)
 
 class 19 - [Genome informatics and high throughput sequencing](https://github.com/hjaang/BGGN213/blob/main/class19/class19.rmd)
